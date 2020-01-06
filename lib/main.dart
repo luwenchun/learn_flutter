@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-
+// 入口
 void main() => runApp(MyApp());
 
+// 顶层组件
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
@@ -24,7 +25,7 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
+// 首页
 class MyHomePage extends StatefulWidget {
   MyHomePage({Key key, this.title}) : super(key: key);
 
@@ -43,6 +44,7 @@ class MyHomePage extends StatefulWidget {
   _MyHomePageState createState() => _MyHomePageState();
 }
 
+//首页组件
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
    
@@ -63,11 +65,11 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 // 当state变化执行
- @override
-  void didChangeDependencies() {
-    // TODO: implement didChangeDependencies
-    super.didChangeDependencies();
-  }
+  @override
+    void didChangeDependencies() {
+      // TODO: implement didChangeDependencies
+      super.didChangeDependencies();
+    }
   @override
   Widget build(BuildContext context) {
     // This method is rerun every time setState is called, for instance as done
