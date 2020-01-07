@@ -71,27 +71,27 @@ class MyApp extends StatelessWidget {
 //   }
 // }
 
-// class Container_p3 extends StatelessWidget{
-//   @override
-//   Widget build(BuildContext context) {
-//     // TODO: implement build
-//     return Center(
-//       child: Container(
-//         width: 200,
-//         height: 200,
-//         color: Colors.red,
-//         child: Text('data',
-//           style: TextStyle(
-//             fontSize: 30.0,
-//             color: Colors.blue
-//           ),
-//         ),
-//         // alignment: Alignment.center,
-//         alignment: Alignment(-0.5,0),
-//       ),
-//     );
-//   }
-// }
+class Container_p3 extends StatelessWidget{
+  @override
+  Widget build(BuildContext context) {
+    // TODO: implement build
+    return Center(
+      child: Container(
+        width: 200,
+        height: 200,
+        color: Colors.red,
+        child: Text('data',
+          style: TextStyle(
+            fontSize: 30.0,
+            color: Colors.blue
+          ),
+        ),
+        // alignment: Alignment.center,
+        alignment: Alignment(-0.5,0),
+      ),
+    );
+  }
+}
 
 // class Container_p3 extends StatelessWidget{
 //   @override
